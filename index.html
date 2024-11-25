@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_circle"/>
+     <link rel="icon" href="wppusher-logo copy.png">
+     <title>WP Pusher</title>
+</head>
+<body>
+     <header class="navigation">
+          <!-- Assignment Navigation -->
+          <nav class="assignment-nav mobile-assignment-nav">
+               <li><a href="index.html" class="assignment-navlinks">WP Pusher Assignment</a></li>
+               <li><a href="scissor.html" class="assignment-navlinks">Scissor Assignment</a></li>
+          </nav>
+
+          <!-- WP Pusher Nav -->
+          <nav class="pusher-nav mobile-pusher-nav">
+               <!-- Logo -->
+               <figure>
+                    <a href="index.html">
+                         <img src="wppusher-logo copy.png" alt="WP Pusher Company Logo" class="logo">
+                    </a>
+               </figure>
+
+               <!-- Navlinks -->
+               <div class="pusher-navlinks-container">
+                    <li><a href="download" class="pusher-navlinks">Download</a></li>
+                    <li><a href="learn-more" class="pusher-navlinks">Learn More</a></li>
+                    <li><a href="pricing" class="pusher-navlinks">Pricing</a></li>
+                    <li><a href="help" class="pusher-navlinks">Help</a></li>
+
+                    <button class="account-button">Account </button>
+               </div>
+          </nav>
+     </header>
+
+     <!-- Main Section -->
+     <main class="main-container">
+          <div class="panel">
+               <!-- Panel -->
+               <aside class="checkout-container">
+                    <section class="section-border-bottom">
+                         <h1 class="checkout-heading heading">Checkout</h1>
+                    </section>
+
+                    <!-- Basic Info Section -->
+                    <section class="section-border-bottom info-section section">
+                         <div class="section-title">
+                              <div class="number-container">
+                                   <p>1</p>
+                              </div>
+
+                              <h1 class="section-title">Your Basic Information</h1>
+                         </div>
+
+                         <form class="basic-info-form">
+
+                              <!-- First Name Input -->
+                              <div class="info-input">
+                                   <label for="first-name">First Name</label>
+                                   <input type="text" name="first-name" id="first-name" class="input-field" placeholder="Enter Your First Name" required>
+                              </div>
+
+                              <!-- Last Name Input -->
+                              <div class="info-input">
+                                   <label for="last-name">Last Name</label>
+                                   <input type="text" name="last-name" id="last-name" class="input-field" placeholder="Enter Your Last Name" required>
+                              </div>
+
+                              <!-- Email Input -->
+                              <div class="info-input">
+                                   <label for="email">Email</label>
+                                   <input type="email" name="email" id="email" class="input-field" placeholder="Enter Your Email" required>
+                              </div>
+                         </form>
+                    </section>
+                    
+                    <!-- Payment Section -->
+                    <section class="section-border-bottom info-section">
+                         <!-- Section Title -->
+                         <div class="section-title">
+                              <div class="number-container">
+                                   <p class="number">2</p>
+                              </div>
+
+                              <h1 class="section-title">Your Payment Information</h1>
+                         </div>
+                         
+                         <!-- Credit Card Input -->
+                         <form class="card-info-form">
+                              <label for="card-info">Credit Card</label>
+
+                              <div class="input-fields-container">
+                                   <input type="number" placeholder="Enter Your Card Number" class="card-info-input-fields">
+
+                                   <input type="number" placeholder="MM/YY" class="card-info-input-fields">
+
+                                   <input type="number" placeholder="CVC" class="card-info-input-fields">
+                              </div>
+                         </form>
+                    </section>
+
+                    <!-- Lower Form -->
+                    <section class="final-section">
+                         <!-- Buy Button -->
+                         <form>
+                              <input type="button" value="Buy WP Pusher" class="buy-button">
+                         </form>
+
+                         <!-- Help Info -->
+                         <div class="help-info-container">
+                              <div class="question-mark-container">
+                                   <p class="question-mark">?</p>
+                              </div>
+
+                              <p>
+                                   <strong class="help-notice">Need Any Help?</strong> Don't hesitate to contact <br>support!
+                              </p>
+                         </div>
+
+                         <!-- Stripe Icon -->
+                         <figure>
+                              <img src="powered_by_stripe.png" alt="Powered By Stripe Image" class="stripe-image">
+                         </figure>
+                    </section>
+               </aside>
+
+               <!-- Side Bar -->
+               <aside class="side-bar">
+                    
+                    <!-- Plan -->
+                    <div class="plan">
+                         <h2>Freelancer</h2>
+
+                         <div class="pricing">
+                              <p class="currency-symbol">$</p>
+
+                              <p class="price">99</p>
+
+                              <p class="year">/year</p>
+                         </div>
+
+                         <em class="renewal-notice">Automatically renews after 1 year</em>
+                    </div>
+
+                    <!-- Details -->
+                    <div class="details-container">
+                         <div class="details">
+                              <span class="material-symbols-outlined">check_circle</span>
+                              <p>Use on <strong>5</strong> clients</p>
+                         </div>
+
+                         <div class="details">
+                              <span class="material-symbols-outlined">check_circle</span>
+                              <p>Private repositories</p>
+                         </div>
+
+                         <div class="details">
+                              <span class="material-symbols-outlined">check_circle</span>
+                              <p>Email support</p>
+                         </div>
+                    </div>
+
+                    <!-- Switch -->
+                    <div class="switch">
+                         <p>Need <strong>20 client sites?</strong></p>
+                         <strong class="agency-switch">Switch to the Agency plan</strong>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="divider"></div>
+
+                    <!-- Quote -->
+                    <div class="quote-container">
+                         <em class="quote">FTP is horrible to deal with. <strong>WP Pusher</strong>  solves that issue, and the customer support is awesome!</em>
+
+                         <div class="user">
+                              <figure>
+                                   <img src="User Image.png" alt="User Image" class="user-image">
+                              </figure>
+
+                              <strong>Kirk Beard</strong>
+                         </div>
+                    </div>
+               </aside>
+          </div>
+     </main>
+
+     <footer>
+          <p>©️ 2018 WP Pusher IVS | <span class="terms-of-service">Terms Of Service</span></p>
+     </footer>
+     
+</body>
+</html>
